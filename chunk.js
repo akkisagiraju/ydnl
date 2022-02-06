@@ -13,8 +13,8 @@ function chunk(array, size = 1) {
   return result;
 }
 
-chunk(['a', 'b', 'c', 'd'], 2);
+// chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
 
-chunk(['a', 'b', 'c', 'd'], 3);
+// chunk(['a', 'b', 'c', 'd'], 3);
 // => [['a', 'b', 'c'], ['d']]
