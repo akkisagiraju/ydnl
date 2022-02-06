@@ -6,4 +6,5 @@ function compact(array) {
   return array.filter((item) => Boolean(item));
 }
 
-console.log(compact([0, 1, false, 2, '', 3]));
+compact([0, 1, false, 2, '', 3]);
+// => [1, 2, 3]
